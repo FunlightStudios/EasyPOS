@@ -1,0 +1,140 @@
+/* Modern Dark Theme for POS System */
+
+QWidget {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+}
+
+QMainWindow {
+    background-color: #1e1e1e;
+    border: none;
+}
+
+QPushButton {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #1565c0;
+}
+
+QPushButton:pressed {
+    background-color: #0a3d91;
+}
+
+QPushButton:disabled {
+    background-color: #263238;
+    color: #78909c;
+}
+
+QLineEdit, QSpinBox, QDoubleSpinBox {
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+}
+
+QLineEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus {
+    border: 1px solid #0d47a1;
+}
+
+QTableWidget {
+    background-color: #2d2d2d;
+    alternate-background-color: #353535;
+    border: 1px solid #3d3d3d;
+    gridline-color: #3d3d3d;
+}
+
+QTableWidget::item {
+    padding: 8px;
+}
+
+QTableWidget::item:selected {
+    background-color: #0d47a1;
+}
+
+QHeaderView::section {
+    background-color: #252525;
+    padding: 8px;
+    border: none;
+    border-right: 1px solid #3d3d3d;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #2d2d2d;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #404040;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QMenu {
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    padding: 5px;
+}
+
+QMenu::item {
+    padding: 5px 30px 5px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #0d47a1;
+}
+
+QLabel {
+    color: #ffffff;
+}
+
+QDialog {
+    background-color: #1e1e1e;
+    border: 1px solid #3d3d3d;
+}
+
+QComboBox {
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    padding: 6px;
+    color: white;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QGroupBox {
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    margin-top: 1em;
+    padding-top: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 5px;
+    color: #2196F3;
+}
+
+QStatusBar {
+    background-color: #252525;
+    color: #78909c;
+}
