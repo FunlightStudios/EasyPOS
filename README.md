@@ -1,5 +1,8 @@
 # Modern POS System
 
+# ⚠️ Work in Progress
+This project is under active development and not production-ready yet.
+
 Ein modernes Point of Sale System entwickelt mit Python und PySide6.
 
 ## Features
