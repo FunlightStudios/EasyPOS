@@ -60,4 +60,4 @@ python main.py
 
 ## Lizenz
 
-Copyright 2023 Codeium
+Copyright 404 Not Found
